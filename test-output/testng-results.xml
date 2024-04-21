@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-18T21:47:19 IST" name="Suite" finished-at="2024-04-18T21:48:56 IST" duration-ms="97675">
+    <groups>
+      <group name="Regression">
+        <method signature="Health_Insurance_Tc.healthInsuranceMenuItems()[pri:0, instance:testCases.Health_Insurance_Tc@17fc391b]" name="healthInsuranceMenuItems" class="testCases.Health_Insurance_Tc"/>
+        <method signature="Travel_Insurance_Tc.clickTravelInsurance()[pri:0, instance:testCases.Travel_Insurance_Tc@4a003cbe]" name="clickTravelInsurance" class="testCases.Travel_Insurance_Tc"/>
+        <method signature="Car_Insurance_Tc.sel_NewCar_forInsurance()[pri:1, instance:testCases.Car_Insurance_Tc@4082ba93]" name="sel_NewCar_forInsurance" class="testCases.Car_Insurance_Tc"/>
+        <method signature="Travel_Insurance_Tc.clickDates()[pri:1, instance:testCases.Travel_Insurance_Tc@4a003cbe]" name="clickDates" class="testCases.Travel_Insurance_Tc"/>
+        <method signature="Travel_Insurance_Tc.selectAges()[pri:2, instance:testCases.Travel_Insurance_Tc@4a003cbe]" name="selectAges" class="testCases.Travel_Insurance_Tc"/>
+        <method signature="Travel_Insurance_Tc.enterContactDetais()[pri:3, instance:testCases.Travel_Insurance_Tc@4a003cbe]" name="enterContactDetais" class="testCases.Travel_Insurance_Tc"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Health_Insurance_Tc.healthInsuranceMenuItems()[pri:0, instance:testCases.Health_Insurance_Tc@17fc391b]" name="healthInsuranceMenuItems" class="testCases.Health_Insurance_Tc"/>
+        <method signature="Travel_Insurance_Tc.clickTravelInsurance()[pri:0, instance:testCases.Travel_Insurance_Tc@4a003cbe]" name="clickTravelInsurance" class="testCases.Travel_Insurance_Tc"/>
+        <method signature="Car_Insurance_Tc.sel_NewCar_forInsurance()[pri:1, instance:testCases.Car_Insurance_Tc@4082ba93]" name="sel_NewCar_forInsurance" class="testCases.Car_Insurance_Tc"/>
+        <method signature="Travel_Insurance_Tc.clickDates()[pri:1, instance:testCases.Travel_Insurance_Tc@4a003cbe]" name="clickDates" class="testCases.Travel_Insurance_Tc"/>
+        <method signature="Travel_Insurance_Tc.selectAges()[pri:2, instance:testCases.Travel_Insurance_Tc@4a003cbe]" name="selectAges" class="testCases.Travel_Insurance_Tc"/>
+        <method signature="Travel_Insurance_Tc.enterContactDetais()[pri:3, instance:testCases.Travel_Insurance_Tc@4a003cbe]" name="enterContactDetais" class="testCases.Travel_Insurance_Tc"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-04-18T21:47:19 IST" name="Test in Chrome Browser" finished-at="2024-04-18T21:48:56 IST" duration-ms="97675">
+      <class name="testCases.Travel_Insurance_Tc">
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:testCases.Travel_Insurance_Tc@4a003cbe]" started-at="2024-04-18T21:47:19 IST" name="initilizeBrowser" finished-at="2024-04-18T21:47:29 IST" duration-ms="9455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="clickTravelInsurance()[pri:0, instance:testCases.Travel_Insurance_Tc@4a003cbe]" started-at="2024-04-18T21:47:29 IST" name="clickTravelInsurance" finished-at="2024-04-18T21:47:38 IST" duration-ms="9155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickTravelInsurance -->
+        <test-method signature="clickDates()[pri:1, instance:testCases.Travel_Insurance_Tc@4a003cbe]" started-at="2024-04-18T21:47:38 IST" name="clickDates" finished-at="2024-04-18T21:47:49 IST" duration-ms="10925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDates -->
+        <test-method signature="selectAges()[pri:2, instance:testCases.Travel_Insurance_Tc@4a003cbe]" started-at="2024-04-18T21:47:49 IST" name="selectAges" finished-at="2024-04-18T21:48:00 IST" duration-ms="10769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAges -->
+        <test-method signature="enterContactDetais()[pri:3, instance:testCases.Travel_Insurance_Tc@4a003cbe]" started-at="2024-04-18T21:48:00 IST" name="enterContactDetais" finished-at="2024-04-18T21:48:11 IST" duration-ms="11208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterContactDetais -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Travel_Insurance_Tc@4a003cbe]" started-at="2024-04-18T21:48:11 IST" name="tearDown" finished-at="2024-04-18T21:48:16 IST" duration-ms="4584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Travel_Insurance_Tc -->
+      <class name="testCases.Health_Insurance_Tc">
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:testCases.Health_Insurance_Tc@17fc391b]" started-at="2024-04-18T21:48:43 IST" name="initilizeBrowser" finished-at="2024-04-18T21:48:50 IST" duration-ms="7820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="healthInsuranceMenuItems()[pri:0, instance:testCases.Health_Insurance_Tc@17fc391b]" started-at="2024-04-18T21:48:50 IST" name="healthInsuranceMenuItems" finished-at="2024-04-18T21:48:54 IST" duration-ms="3137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- healthInsuranceMenuItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Health_Insurance_Tc@17fc391b]" started-at="2024-04-18T21:48:54 IST" name="tearDown" finished-at="2024-04-18T21:48:56 IST" duration-ms="2718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Health_Insurance_Tc -->
+      <class name="testCases.Car_Insurance_Tc">
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:testCases.Car_Insurance_Tc@4082ba93]" started-at="2024-04-18T21:48:16 IST" name="initilizeBrowser" finished-at="2024-04-18T21:48:23 IST" duration-ms="7480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="sel_NewCar_forInsurance()[pri:1, instance:testCases.Car_Insurance_Tc@4082ba93]" started-at="2024-04-18T21:48:23 IST" name="sel_NewCar_forInsurance" finished-at="2024-04-18T21:48:40 IST" duration-ms="16338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sel_NewCar_forInsurance -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Car_Insurance_Tc@4082ba93]" started-at="2024-04-18T21:48:40 IST" name="tearDown" finished-at="2024-04-18T21:48:43 IST" duration-ms="2843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Car_Insurance_Tc -->
+    </test> <!-- Test in Chrome Browser -->
+  </suite> <!-- Suite -->
+</testng-results>

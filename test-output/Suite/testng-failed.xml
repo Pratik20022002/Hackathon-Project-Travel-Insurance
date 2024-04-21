@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testBase.Extent_Report"/>
+  </listeners>
+  <test thread-count="5" name="Test in Chrome Browser(failed)">
+    <classes>
+      <class name="testCases.Travel_Insurance_Tc">
+        <methods>
+          <include name="initilizeBrowser"/>
+          <include name="enterStudentPlans"/>
+          <include name="tearDown"/>
+          <include name="clickTravelInsurance"/>
+          <include name="enterContactDetais"/>
+          <include name="clickDates"/>
+          <include name="insurerNameAndPlanPrice"/>
+          <include name="selectAges"/>
+          <include name="selectSorts"/>
+        </methods>
+      </class> <!-- testCases.Travel_Insurance_Tc -->
+      <class name="testCases.Car_Insurance_Tc">
+        <methods>
+          <include name="email_Capture_ErrorMessage"/>
+          <include name="initilizeBrowser"/>
+          <include name="tearDown"/>
+          <include name="sendData"/>
+          <include name="sel_NewCar_forInsurance"/>
+          <include name="navigateBack"/>
+        </methods>
+      </class> <!-- testCases.Car_Insurance_Tc -->
+      <class name="testCases.Health_Insurance_Tc">
+        <methods>
+          <include name="initilizeBrowser"/>
+          <include name="tearDown"/>
+          <include name="healthInsuranceMenuItems"/>
+        </methods>
+      </class> <!-- testCases.Health_Insurance_Tc -->
+    </classes>
+  </test> <!-- Test in Chrome Browser(failed) -->
+</suite> <!-- Failed suite [Suite] -->

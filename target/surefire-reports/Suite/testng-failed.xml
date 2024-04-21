@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="testBase.Extent_Report"/>
+  </listeners>
+  <test thread-count="5" name="Test in Chrome Browser(failed)" verbose="0">
+    <classes>
+      <class name="testCases.Health_Insurance_Tc">
+        <methods>
+          <include name="initilizeBrowser"/>
+          <include name="tearDown"/>
+          <include name="healthInsuranceMenuItems"/>
+        </methods>
+      </class> <!-- testCases.Health_Insurance_Tc -->
+      <class name="testCases.Travel_Insurance_Tc">
+        <methods>
+          <include name="initilizeBrowser"/>
+          <include name="enterStudentPlans"/>
+          <include name="tearDown"/>
+          <include name="clickTravelInsurance"/>
+          <include name="enterContactDetais"/>
+          <include name="insurerNameAndPlanPrice"/>
+          <include name="clickDates"/>
+          <include name="selectAges"/>
+          <include name="selectSorts"/>
+        </methods>
+      </class> <!-- testCases.Travel_Insurance_Tc -->
+    </classes>
+  </test> <!-- Test in Chrome Browser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
